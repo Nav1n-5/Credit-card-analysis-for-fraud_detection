@@ -52,7 +52,7 @@ transactions_df = transactions_df.filter(
     col("merchant_id").isNotNull()
 )
 
-# Repartition by join key to optimize shuffle
+# Repartition by join key to optimize shuffle 
 transactions_df = transactions_df.repartition("cardholder_id")
 
 # Data Transformations

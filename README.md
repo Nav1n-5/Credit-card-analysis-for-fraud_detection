@@ -18,4 +18,16 @@ PyTest – Unit testing framework for PySpark transformation logic
 
 Unit test cases for PySpark code and test logic using PyTest
 
+
+make sure to install pytest and the following dependencies in your env before run this in your machine 
+pip install pyspark==3.5.1 \
+            google-cloud-bigquery \
+            google-cloud-storage \
+            pandas \
+            numpy \
+            pytest \
+            pytest-mock \
+            apache-airflow[gcp]==2.7.1 \
+            google-auth google-auth-oauthlib
+
     
