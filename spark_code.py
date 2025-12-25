@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, when, lit, to_timestamp, concat, round, broadcast
 
-# Initialize Spark Session
+# Initialize Spark Session without you 
 spark = SparkSession.builder \
     .appName("Credit Card Transactions Processor") \
     .getOrCreate()
