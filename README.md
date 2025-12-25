@@ -16,6 +16,6 @@ BigQuery – Cloud data warehouse for analytical fraud detection and reporting
 
 PyTest – Unit testing framework for PySpark transformation logic
 
-GitHub – Source code management
+Unit test cases for PySpark code and test logic using PyTest
 
-GitHub Actions – CI/CD pipeline for automated testing and deployment
+    
