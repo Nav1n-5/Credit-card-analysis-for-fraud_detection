@@ -1,15 +1,21 @@
-# Credit-card-analysis-for-fraud_detection
-event driven pipeline for credit card transcation dumping into bigquery for analysis, which helps us to find frauds , if any 
+Credit Card Transaction Analysis for Fraud Detection
 
-#used stack 
+This project implements an event-driven data pipeline for processing credit card transaction data and loading it into BigQuery for analytical fraud detection. The pipeline is triggered by the arrival of transaction files and performs scalable batch processing using cloud-native services on Google Cloud Platform.
 
-*pyspark 
+Tech Stack
 
-*gcp for storgae (customer data , transcation and archive)
+PySpark – Distributed data processing and transformation
 
-*aiflow (sensing the filel > run spark job >move file)(cloud composer)
+Google Cloud Storage (GCS) – Storage for customer data, transaction data, and archived files
 
-*dataproc serverless for data transformation and derivation 
+Apache Airflow (Cloud Composer) – Event-based orchestration for sensing file arrivals, triggering Spark jobs, and archiving processed data
 
-*and big query for analysis 
+Dataproc Serverless – Serverless execution environment for PySpark workloads
 
+BigQuery – Cloud data warehouse for analytical fraud detection and reporting
+
+PyTest – Unit testing framework for PySpark transformation logic
+
+GitHub – Source code management
+
+GitHub Actions – CI/CD pipeline for automated testing and deployment
