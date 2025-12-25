@@ -2,6 +2,7 @@
 event driven pipeline for credit card transcation dumping into bigquery for analysis, which helps us to find frauds , if any 
 
 #used stack 
+
 *pyspark 
 
 *gcp for storgae (customer data , transcation and archive)
